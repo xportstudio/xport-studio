@@ -54,7 +54,7 @@ The app asks once on first launch. Saying yes turns on both channels below. You 
 
 - **Updates and packs**: the app checks for and downloads updates and packs from GitHub, with downloads delivered through a Cloudflare worker.
 - **License activation**: sends your license key to Lemon Squeezy's license API to confirm the purchase.
-- **First-time downloads**: AI models and packages are downloaded the first time a tool needs them (Hugging Face, Python Package Index).
+- **First-time downloads**: AI models and packages are downloaded the first time a tool needs them (public hosts such as Hugging Face, GitHub, the Python Package Index, and download.pytorch.org).
 - **Feedback (optional)**: in-app feedback sends your message, app version, platform, and an optional email to our feedback server on Cloudflare.
 
 ### Listen Live and the microphone
